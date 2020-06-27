@@ -1,0 +1,35 @@
+.cta {
+  background-color: #c69963;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cta.stretch {
+  grid-column: 1 / -1;
+}
+
+.cta.alignStart {
+  justify-self: start;
+  align-self: start;
+}
+
+.cta.alignCenter {
+  justify-self: center;
+  align-self: center;
+}
+
+.cta.alignEnd {
+  justify-self: end;
+  align-self: end;
+}
+
+.cta:hover {
+  background-color: #b28451;
+}
